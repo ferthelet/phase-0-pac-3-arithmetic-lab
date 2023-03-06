@@ -23,3 +23,16 @@ function increment (num) {
 function decrement (num) {
     return --num;
 }
+
+function makeInt(string) {
+    // NaN = not a number
+    const base = 10; // radix, defaults to 10, but not always
+
+    return parseInt(string, base);
+}
+
+function preserveDecimal(string) {
+    return parseFloat(string);
+}
+
+
