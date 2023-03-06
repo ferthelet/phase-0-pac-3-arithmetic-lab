@@ -15,3 +15,11 @@ function multiply(factor1, factor2) {
 function divide(dividend, divisor) {
     return dividend / divisor; // quotient
 }
+
+function increment (num) {
+    return ++num;
+}
+
+function decrement (num) {
+    return --num;
+}
